@@ -1,0 +1,49 @@
+.header{
+    height: 68px;
+    background-color: rgb(32, 171, 196);
+}
+
+.logo-section{
+    width: 20%;
+    display: flex;
+    align-items: center;
+}
+.logo-title{
+    font-size: 24px;
+    color: #000000;
+    font-family: 'Poppins', sans-serif; 
+    font-weight: 600;
+}
+.logo-icon{
+    margin-left: 12px;
+    font-size: 22px;
+    color: brown;
+    font-weight: bold;
+}
+.search-section{
+    width: 60%;
+    position: relative;
+}
+.search-input{
+width: 40%;
+height: 34px;
+border: none;
+    border-radius: 10px
+}
+.search-input::placeholder{
+    color:  #999;
+    font-family: 'Poppins', sans-serif;  
+      font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-left: 8px;
+
+}
+.search-icon{
+color: #FF9518;
+font-size: 22px;
+position: absolute;
+left: 240px;
+top: 8px;
+}
